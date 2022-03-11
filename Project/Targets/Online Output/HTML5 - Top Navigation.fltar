@@ -14,10 +14,15 @@
   ConditionTagExpression="include[General.Online]exclude[General.PDF]"
   DefaultUrl="/Content/Home.htm"
   FaviconSkin="/Project/Skins/HTML5 - Favicons.flskn"
-  IncludeGlossarySearchResults="false">
+  IncludeGlossarySearchResults="false"
+  MasterToc="/Project/TOCs/Online Output.fltoc">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
     GenerateIndexProxy="true"
     GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="General/ProductName">FictionSoft</Variable>
+  </Variables>
 </CatapultTarget>

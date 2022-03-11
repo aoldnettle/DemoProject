@@ -14,7 +14,8 @@
   <Variable
     Name="ProductName"
     Comment=""
-    OriginalName="ProductName">FictionSoft</Variable>
+    OriginalName="ProductName"
+    EvaluatedDefinition="FictionSoft Enterprise">FictionSoft Enterprise</Variable>
   <Variable
     Name="Fax"
     Comment=""
